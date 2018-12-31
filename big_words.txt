@@ -1,0 +1,87 @@
+JavaScript Big Words made simple
+
+Event Listener - The code that responds to an event.
+
+Magic String - A string that has some special meaning in our code.
+
+Machine Code (Machine Language) - Programming languages spoken by computer processors. Every program you run on your computer has been converted (compiled) into machine code.
+
+ECMAScript - The standard Javascript is based on. Needed a standard since there are many JS Engines.
+
+Javascript Engine - A program that converts JS code into something the computer processors can understand.
+
+Breakpoint - A spot in our code where we tell a debugging tool to pause the execution of our code.
+
+Module - A reusable block of code whose existence doesn't accidentally impact other code. Javascript did not have this feature before
+
+CommonJS Modules - An agreed upon standard for how code modules should be structured.
+
+First Class Functions - Everything you can do with other types you can do with functions.
+
+Expression - A block of code that results in a value.
+
+Invoke - Run the function.
+
+Name/Value Pair - A name which maps to a value.
+
+Object - A collection of name/value pairs.
+
+Object Literal - Name/value pairs seperated by commas and surrounded by curly braces.
+
+Inheritance - One object gets access to the properties and methods of another object.
+
+Function Constructors - A normal function that is used to construct objects.
+The 'this' variable points to a new empty object, and that object is returned from the function automatically.
+
+Primitive - A type of data that represents a single value.
+Like a number or a string, not an object in general in javascript.
+
+Scope - Where in code you have access to particular variable or function.
+
+JSON - A standard for structuring data that is inspired by javascript object literals.
+Javascript engines are built to understand it.
+
+Revealing Module Pattern - Exposing only the properties and methods you want via the returned object.
+A very common and clean way to structure and protect code within modules.
+
+Mutate - To change something.
+For example, adding a method or a property to an object means you mutate the object.
+
+Event Listener - The code that responds to an event.
+In javascript's case the listener will be a function.
+
+Template Literal - A way to concatenate strings in Javascript (ES6).
+Easier to work with than a bunch of strings concatenated with '+'.
+
+Non Blocking - Doing other things without stopping your program from running.
+This is made possible by Node's doing things asynchronously.
+
+Buffer - A temporary holding spot for data being moved from one place to another.
+Intentionality limited in size.
+
+Stream - A sequence of data made available over time.
+Pieces of data that eventually combine into a whole.
+
+Binary Data - Data stored in binary numbers (sets of 1s and 0s)
+The core of the math that computers are based on. Each one or zero is called a bit or a binary digit.
+
+Character Set - A representation of characters as numbers
+Each character gets a number. Unicode and ASCII are character sets
+
+Character Encoding - How characters are stored in binary.
+The numbers (or code points) are converted and stored in binary.
+
+Byte - 8 bits
+
+Callback - A function passed to some other function, which we assume will be invoked at some point.
+The function 'calls back' back invoking the function you give it when it is done doing its work.
+
+Error-First Callback - The callback that thakes an error object as its first parameter.
+null if no error, otherwise will contain an object defining the error. This is a standard so we know in what order
+to place our parameters for our callbacks.
+
+Chunk - A piece of data being sent through a stream.
+Data is split in 'chunks' and streamed
+
+Abstract Class - A type of constructor you never work directly with, but inherit from.
+We create new custom objects which inherits from the abstract base class.
